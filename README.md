@@ -31,4 +31,6 @@ In order to converge into a common set of methodologies, it is important to work
 In practical terms, that means that we keep raw data in our site so that others can inspect them.
 
 
-Read the whole document (in progress) (https://docs.google.com/document/d/1H735-yqHt_MC7TYQvG8inOjEwkQC30HslvQKXOKCOlg/edit?usp=sharing)[here].
+## Do you want to know more?
+
+Read the whole document (in progress): https://docs.google.com/document/d/1H735-yqHt_MC7TYQvG8inOjEwkQC30HslvQKXOKCOlg/edit?usp=sharing.
