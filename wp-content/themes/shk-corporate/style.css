@@ -1,0 +1,1019 @@
+/*
+Theme Name: Shk Corporate
+Author: Shekhar Bhandari
+Author URI: http://www.shekharbhandari.com.np
+Description: Shk Corporate is a powerful WordPress theme which incorporates responsive design, multiple blog layout options, retina ready graphics, several page templates, post formats, gorgeous typography elements, tons of widget positions, a custom child theme, WooCommerce support, Jetpack support, video tutorials, and more!
+Version: 1.0.4
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: shk-corporate
+Template: flat-responsive
+Domain Path: /languages/
+Tags: custom-colors, black, light, responsive-layout, custom-background, custom-header, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.shk_header {
+	background-color:#282b2d;
+}
+.shk_footer {
+	background-color:#282b2d;
+	text-align:center;
+	padding:2rem;
+	color:#fff;
+}
+.shk_bottom_widget {
+	background-color:#282b2d;
+	border-top:10px solid #EAEAEA;
+	padding:3rem;
+	color:#818181;
+}
+.shk_bottom_widget h4 {
+	text-transform: uppercase;
+	padding-bottom:10px;
+	color:#fff;
+	font-weight:700;
+}
+.shk_bottom_widget ul li {
+	line-height:2.5;
+}
+.shk_bottom_widget ul li a {
+	color:#818181;
+}
+.shk_bottom_widget ul li:hover,
+.shk_bottom_widget ul li a:hover {
+	color:#fff;
+	text-decoration: none;
+}
+.shk_banner {
+	border-bottom:10px solid #EAEAEA;
+}
+/*
+============================================================
+@ ASSISTIVE TEXT
+============================================================
+*/
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+}
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	height: auto;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	text-decoration: none;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar */
+}
+/*
+=================================================
+STANDARD WORDPRESS IMAGES STYLES
+=================================================
+*/
+.alignnone {
+    margin: 0.5em 30px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 0.5em auto 5px auto;
+}
+.alignright {
+    float:right;
+    margin: 0.5em 0 20px 30px;
+}
+.alignleft {
+    float: left;
+    margin: 0.5em 30px 20px 0;
+}
+.aligncenter {
+    display: block;
+    margin: 0.5em auto;
+}
+a img.alignright {
+    float: right;
+    margin: 0.5em 0 20px 30px;
+}
+a img.alignnone {
+    margin: 0.5em 20px 20px 0;
+}
+a img.alignleft {
+    float: left;
+    margin: 0.5em 30px 20px 0;
+}
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.wp-caption {
+    max-width: 100%; /* Image does not overflow the content area */
+    padding: 0;
+    text-align: center;
+}
+.wp-caption.alignnone {
+    margin: 1.25em 20px 20px 0;
+}
+.wp-caption.alignleft {
+    margin: 1.25em 30px 20px 0;
+}
+.wp-caption.alignright {
+    margin: 1.25em 0 20px 30px;
+}
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
+    width: auto;
+}
+figcaption.wp-caption-text {
+    font-size: 14px;
+    line-height: 17px;
+    margin: 2px 0 0;
+    padding: 2px 4px 3px;
+	color: #656565;
+	background-color: #e2e5e7;
+}
+.sticky {}
+.gallery-caption{}
+.bypostauthor{}
+img {
+	/* width:100%; */
+	height:auto;
+	margin:10px 10px 10px 0px;
+}
+/*
+=================================================
+Comments
+=================================================
+*/
+.comment-awaiting-moderation { 
+	font-weight: 700;
+	color: #999; 
+	text-transform: uppercase;
+  	font-size: 0.85rem;
+}
+
+.nocomments {
+	padding: 10%;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #999;
+}
+ol.comment-list {
+	margin:0px 5px;
+	padding:0px;
+	list-style:none;
+}
+ol.comment-list > li {
+	padding: 10px;
+	background: #f4f4f4;
+	margin-bottom: 5px;
+}
+ol.comment-list ul.children li {
+	background: #f4f4f4;
+	margin-bottom: 5px;
+	margin-left:2rem;
+	padding:20px;
+}
+ol.comment-list ul.children ul.children{
+	margin-left:2rem;
+}
+.comments + .nocomments { border-top: 1px solid #eee; }
+
+.comments-title-container {
+	padding-bottom: 4px;
+	border-bottom: 2px solid #151515;
+	margin-bottom: 35px;
+}
+
+.comments-title { 
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: #151515;
+	text-transform: uppercase;
+	border-bottom: 2px solid #151515;
+	padding-bottom: 10px;
+}
+.add-comment-title {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
+.add-comment-title a:hover { text-decoration: underline; }
+
+
+/* comment */
+
+.comments div.comment { margin-top: 25px; }
+
+.comments .commentlist > li.comment:first-child > div.comment:first-child { 
+	border-top: medium none;
+	padding-top: 0px;
+	margin-top: 0px; 
+}
+
+.comments .children { margin-left: 5%; }
+
+.comment-header-inner { 
+	padding: 4px 0px 0px 62px;
+	position: relative;
+}
+
+.comment .avatar {
+	float: left;
+	width: 50px;
+	border-radius: 999px;
+	/* border: 4px solid #EAEAEA; */
+}
+
+.comment.bypostauthor  { position: relative; }
+
+.comment-header-inner { margin-bottom: 20px;  }
+
+.comment-header-inner cite {
+	display: block;
+	font-size: 1.1rem;
+	font-weight: 700;
+	margin-bottom: 8px;
+}
+
+.comment-header-inner cite,
+.comment-header-inner cite a { color: #151515; }
+
+.comment-header-inner cite a:hover { color: #FD6905; }
+
+.comment-header-inner p { font-size: 0.85rem; }
+
+.comment-header-inner p,
+.comment-header-inner p a { color: #999; }
+
+.comment-header-inner p a:hover { color: #FD6905; }
+
+
+/* comment-content */
+
+.comment-content a:hover { text-decoration: underline; }
+
+.comment-content,
+.comment-content p,
+.comment-content li,
+.comment-content blockquote {
+	line-height: 180%;
+	margin-top: 1rem;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+}
+
+.comment-content *:first-child { margin-top: 0; } 
+
+.comment-content *:last-child { margin-bottom: 0; }
+
+.comment-content h1, 
+.comment-content h2, 
+.comment-content h3, 
+.comment-content h4, 
+.comment-content h5, 
+.comment-content h6 {
+	margin: 50px 0 20px;
+	font-weight: 400;
+	font-size: 1.2rem;
+}
+
+.comment-content blockquote {
+	padding: 20px;
+	background: #eee;
+}
+
+.comment-content ul.children {
+	list-style: disc;
+	margin-left: 1.5rem;
+}
+
+.comment-content ul ul { list-style: circle; }
+
+.comment-content ul ul ul { list-style: square; }
+
+.comment-content ol {
+	list-style: decimal;
+	margin-left: 1.5rem;
+}
+
+.comment-content ol ol { list-style: lower-alpha; }
+
+.comment-content ol ol ol {	list-style: lower-roman; }
+
+.comment-content ul ul,
+.comment-content ul ol,
+.comment-content ol ul,
+.comment-content ol ol {
+	margin-bottom: 0;
+}
+.comment-author.vcard {
+	font-weight:bold;
+}
+.comment-author.vcard cite.fn {
+    font-style: normal;
+}
+.comment-content li {
+	margin-top: 0.5rem;
+	line-height: 170%;
+}
+
+.comment-content ol > li:last-child,
+.comment-content ul > li:last-child {
+	margin-bottom: 0;
+}
+
+.comment-content address { 
+	padding: 20px; 
+	background: #eee;
+	line-height: 140%;
+}
+
+.comment-content pre {
+	padding: 20px;
+	background: #eee;
+	line-height: 150%;
+	overflow-x: scroll;
+}
+
+/* comment actions */
+
+.comment-actions { 
+	display: block; 
+	margin-top: 20px;
+}
+	
+.comment-actions a {
+	display: inline-block;
+	font-size: 0.85rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+	
+.comment-actions a:first-child {
+	margin-left: 0; 
+	margin-right: 8px; 
+}
+
+.comment-actions a:hover { text-decoration: underline; }
+
+
+/* comment navigation */
+
+.comment-nav-below {
+	margin-bottom: 35px;
+	font-weight: 700;
+	font-size: 0.97rem;
+}
+
+.comment-nav-below a { color: #151515; }
+
+
+/* pingbacks */
+
+.comments .pingbacks { padding-bottom: 50px; }
+
+.pingbacklist .pingback { line-height: 180%; }
+
+.pingbacklist .pingback a:hover { text-decoration: underline; }
+
+
+/* Respond */
+
+.commentlist { padding-bottom: 50px; }
+
+.comments .comment-respond { 
+	border-top: none;
+}
+
+.comment-reply-title {
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: #151515;
+	border-bottom: 2px solid #151515;
+	padding-bottom: 4px;
+	margin-bottom: 35px;
+	text-transform: uppercase;
+}
+
+.comment-reply-title #cancel-comment-reply-link {
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-left: 5px;
+}
+
+.comment-reply-title #cancel-comment-reply-link:hover { text-decoration: underline; }
+
+.comment-notes,
+.logged-in-as { 
+	line-height: 130%;
+	padding-bottom: 1.1rem;
+}
+
+.logged-in-as a:hover { text-decoration: underline; }
+
+.comment-form { margin-top: 10px; }
+
+.comment-form p { margin-top: 1.1rem; }
+
+.comment-form label { 
+	display: block;
+	font-size: 0.97rem;
+	margin-bottom: 0.4rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.comment-form-url { 
+	width: 100%; 
+	margin: 0px 0px 15px; 
+	display: inline-block;
+}
+
+.comment-form-author {margin-right: 5%;}
+
+.comment-form input[type="text"],
+.comment-form input[type="email"] { 
+	position: relative;
+	background-repeat: no-repeat; 
+	background-position: 96% center;
+	background-size: auto 24px;
+}
+
+.comment-form .required {
+    color: #F00;
+    margin-left: 3px;
+}
+
+.comment-form textarea { height: 250px; }
+
+.comment-form input[type="text"]:focus,
+.comment-form input[type="email"]:focus,
+.comment-form textarea:focus {
+	outline: none;
+}
+
+.form-allowed-tags,
+.form-allowed-tags code {
+	line-height: 160%;
+}
+
+
+
+.commentlist .comment-respond {
+    max-width: 95%;
+    margin: 35px 0px 0px 5%;
+}
+/* Post media --------------------------------------- */
+
+.alignleft,
+.alignright {
+	margin-bottom: 1.2rem;
+	max-width: 300px;
+	margin-top: 0.5rem;
+}
+
+.post-content .wp-caption a,
+.post-content .wp-caption img { display: block; }
+
+.post-content .wp-caption .alignleft,
+.post-content .wp-caption .alignright {
+	margin-bottom: 0;
+}
+
+.alignleft {
+	float: left;
+	margin-right: 1.2rem;
+}
+
+.alignright {
+	float: right;
+	margin-left: 1.2rem;
+}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.aligncenter a,
+.aligncenter img { margin: 0 auto; }
+
+.post-content .wp-caption-text,
+.post-content .gallery-caption {
+	font-size: 0.8rem;
+	color: #999;
+	text-align: center;
+	padding-top: 0.5rem;
+}
+
+.post-content .gallery-caption {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+/* Tables --------------------------------------- */
+
+.post-content table {
+	border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    font-size: 0.9rem;
+    width: 100%;
+}
+
+.post-content th,
+.post-content td {
+	padding: 2%;
+	margin: 0;
+	overflow: visible;
+	line-height: 120%;
+	
+}
+.post-content th {
+	background-color: #eee;
+}
+
+.post-content caption {
+	text-align: center;
+	padding: 2%;
+}
+
+.post-content thead {
+	vertical-align: bottom;
+	white-space: nowrap;
+}
+
+.post-content th { font-weight: bold; }
+
+.post-content table tbody > tr:nth-child(odd) > td { background: #eeeeee; }
+
+
+/* Forms --------------------------------------- */
+
+.post-content fieldset {
+	padding: 25px;
+	border: 2px solid #151515;
+	margin-bottom: 1rem;
+}
+
+.post-content fieldset legend {
+	font-size: 0.9rem;
+	line-height: 1;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 10px 12px;
+	background: #FD6905;
+	color: #fff;
+}
+
+.post-content label {
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.post-content input,
+.post-content textarea { 
+	-webkit-font-smoothing: antialiased;
+}
+
+.post-content input[type="text"],
+.post-content input[type="email"],
+.post-content input[type="tel"],
+.post-content input[type="url"],
+.post-content input[type="password"],
+.post-content textarea {
+	width: 100%;
+	padding: 14px 16px;
+	font-size: 0.85rem;
+	border: none;
+	color: #151515;
+	border: 2px solid #151515;
+	-webkit-transition: background 0.2s ease-in-out;
+	-moz-transition: background 0.2s ease-in-out;
+	-ms-transition: background 0.2s ease-in-out;
+	-o-transition: background 0.2s ease-in-out;
+	transition: background 0.2s ease-in-out;
+	-webkit-appearance: none;
+}
+
+.post-content textarea { 
+	height: 180px; 
+	line-height: 140%;
+}
+
+.post-content input[type="text"]:focus,
+.post-content input[type="email"]:focus,
+.post-content input[type="tel"]:focus,
+.post-content input[type="url"]:focus,
+.post-content input[type="password"]:focus,
+.post-content textarea:focus {
+	outline: none;
+}
+
+
+.post-content input[type="submit"],
+.post-content input[type="reset"],
+.post-content input[type="button"] {
+	padding: 24px 16px;
+	margin: 0;
+	background: #fff;
+	color: #151515;
+	font-size: 1rem;
+	line-height: 0;
+	-webkit-appearance: none;
+	font-weight: 700;
+	text-transform: uppercase;
+	border: 2px solid #151515;
+}
+
+.post-content input[type="submit"]:hover,
+.post-content input[type="reset"]:hover,
+.post-content input[type="button"]:hover {
+	cursor: pointer;
+	border-color: #FD6905;
+	color: #FD6905;
+}
+
+.post-content input[type="submit"]:focus,
+.post-content input[type="submit"]:active {
+	outline: none;
+}
+
+.gallery-item img {	border: 0px none !important; }
+
+
+/* Widget calendar --------------------------------------- */
+
+#wp-calendar {
+	color: #999;
+	width: 100%;
+	max-width: 100%;
+	text-align: center;
+	font-size: 0.9rem;
+}
+
+#wp-calendar,
+#wp-calendar caption,
+#wp-calendar tr,
+#wp-calendar td,
+#wp-calendar th {
+	text-align: center;
+}
+
+#wp-calendar th,
+#wp-calendar td {
+	padding: 4% 2%;
+}
+
+#wp-calendar caption,
+#wp-calendar thead {
+	color: #151515;
+}
+
+.footer #wp-calendar caption,
+.footer #wp-calendar thead {
+	color: #fff;
+}
+
+#wp-calendar caption { 
+	font-size: 1rem;;
+	color: #999;
+	text-transform: capitalize; 
+	padding-bottom: 20px;
+}
+
+#wp-calendar thead th {
+	font-size: 0.9rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-bottom: 1px solid #999;
+	border-top: 1px solid #999;
+}
+
+#wp-calendar tbody { border-bottom: 1px solid #999; }
+
+#wp-calendar tfoot td { padding: 0; }
+
+#wp-calendar tfoot #prev { text-align: left; }
+
+#wp-calendar tfoot #next { text-align: right; }
+
+#wp-calendar tfoot a {
+	display: block;
+	padding: 12px 0;
+	font-size: 0.9rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+#wp-calendar tfoot a:hover { text-decoration: none; }
+.page_pagination {
+	margin:1rem 0rem;
+	border-top:1px solid #EAEAEA;
+	padding-top:5px;
+}
+.page_pagination a {
+    padding:0.3rem 0.6rem;
+    color:#fff;
+    background-color:rgb(92, 184, 231);
+    margin-right:3px;
+}
+.page_pagination a:hover {
+    background-color:#505050;
+}
+.page_pagination span {
+    padding:0.3rem 0.6rem;
+    color:#fff;
+    background-color:#505050;
+    margin-right:3px;
+    /* border-radius:5px; */
+}
+.nav-links {
+	display: table;
+  	border-collapse: separate;
+  	border-spacing: 5px;
+}
+.nav-links-buttons {
+	display: table-row;
+}
+.previous-next {
+	text-transform: uppercase;
+	padding-left: 1em;
+	display: table-cell;
+	font-style: normal;
+	vertical-align: middle;
+	font-size: 0.938em;
+	height: 26px;
+}
+.paging-navigation {
+	border-top: 1px solid #e2e5e7;
+	border-bottom: 1px solid #e2e5e7;
+}
+.image-navigation {
+	text-align: center;
+}
+.paging-navigation .nav-previous,
+.paging-navigation .nav-next,
+.post-navigation .nav-previous,
+.post-navigation .nav-next,
+.image-navigation .previous-image,
+.image-navigation .next-image {
+	display: table-cell;
+	color: #888;
+	text-align: center;
+	padding-top: 4px;
+	font-size: 1.250em;
+}
+.image-navigation .previous-image,
+.image-navigation .next-image {
+	display: inline-block;
+}
+/**
+*Navmenu Styling 1
+*/
+
+ul.navmenu {
+	margin:0px;
+	padding:0px;
+	/* float:right; */
+}
+ul.mobilemenu {
+	display:none;
+}
+	
+ul.navmenu > li { 
+	list-style:none;
+	text-decoration:none;
+	float:left;
+	padding:0px;
+	margin:0px;
+	position:relative;
+	text-decoration:none;
+}
+ul.navmenu > li >  a {
+	display:block;
+	padding:0rem 1rem;
+	list-style:none;
+	font-size: 0.9rem;
+	color: rgb(244, 188, 22);
+	font-weight: bold;
+	line-height:80px;
+	text-decoration:none;
+	text-transform: uppercase;
+}
+ul.navmenu > li:hover > a {
+	background-color:#f4f4f4!important;
+	color:#505050;
+}
+ul.navmenu > li > a:hover,
+ul.navmenu > li > a:focus,
+ul.navmenu > li > a:active {
+	outline:none;
+	color:#888;
+	background-color:#fff;
+}
+ul.navmenu ul.sub-menu {
+	margin:0px;
+	text-align: right;
+	display: none;
+	position: absolute;
+	z-index: 99999;
+	width:250px;
+	margin-top:0px;
+	top:80px;
+	right: 6.20rem!important;
+	border: 1px solid #EAEAEA;
+	background:#fff;
+}
+
+ul.navmenu ul.sub-menu > li {
+	list-style:none;
+	text-decoration:none;
+	display:block;
+	border-bottom: 1px solid #EAEAEA;
+	width:100%;
+	margin:0px;
+}
+ul.navmenu ul.sub-menu > li:last-child{
+	border-bottom: 0px solid #EAEAEA;
+}
+ul.navmenu ul.sub-menu > li > a {
+	padding: 0.8rem 1.5rem;
+	display:block;
+	color:#505050;	
+	list-style:none;
+	font-size: 0.85rem;
+	width:100%;
+}
+ul.navmenu ul.sub-menu > li > ul.sub-menu {
+	right: 100%!important;
+	top:0.2rem;
+}
+ul.navmenu ul.sub-menu > li > ul.sub-menu:before {
+	display:none;
+}
+ul.navmenu ul.sub-menu > li > ul.sub-menu > li > a {
+	padding: 0.5rem 1em;
+	font-size: 0.85rem;
+}
+.navmenu .sub-menu li,
+.navmenu .children li {
+	text-transform:none;	
+}
+.navmenu .sub-menu ul,
+.navmenu .children ul {
+	right: 0%;
+	top: 0;
+}
+ul.navmenu ul.sub-menu > li > a:hover,
+ul.navmenu ul.sub-menu > li > a:focus,
+ul.navmenu ul.sub-menu > li > a:active {
+	background-color:#f4f4f4;
+	color:#505050;
+}
+ul.navmenu ul a,
+.navmenu ul ul a {	
+	margin: 0;
+	width: 100%;
+	padding: 8px 15px;
+}
+
+ul.navmenu li:hover > ul,
+.navmenu ul li:hover > ul {
+	display: block;
+	margin-right:-100px;
+   	right: 50%;
+}
+ul.navmenu li:hover ul ul,
+.navmenu ul li:hover ul ul {
+	margin-right:auto;
+   	right: 90%;
+}
+.navmenu .current_page_item > a,
+.navmenu .current_page_ancestor > a,
+.navmenu .current-menu-item > a,
+.navmenu .current-menu-ancestor > a {	
+	outline:none;
+	background-color:rgb(244, 188, 22);;
+	color:#fff;
+	font-style:normal;
+	
+}
+
+ul.navmenu ul.sub-menu .current_page_item > a, 
+ul.navmenu ul.sub-menu .current_page_ancestor > a, 
+ul.navmenu ul.sub-menu .current-menu-item > a, 
+ul.navmenu ul.sub-menu .current-menu-ancestor > a{
+	background-color:#fff!important;
+	color:#888;
+}
+
+.flat_responsive_top {
+	overflow:hidden;
+	background-color: #E8E8E8;
+  	color: #6F6F6F;
+}
+/*
+=================================================
+Social Icons
+=================================================
+*/
+#social-icons > ul > li {
+    display: inline-block;
+    padding: 0.3rem 0.4rem;
+    margin: 0px;
+    border-left: 1px solid #CFCFCF;
+    height: 2.6rem;
+    width: 3rem;
+}
+#social-icons > ul > li:last-child {
+    border-right: 1px solid #CFCFCF;
+}
+/*
+=================================================
+Site Tiel
+=================================================
+*/
+#fr-site-title a {
+  color: rgb(244, 188, 22);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+/*
+=================================================
+Style BreadCrumbs
+=================================================
+*/
+.style_breadcrumbs {
+	padding: 1rem;
+  	background: #EAEAEA
+}
+.comment-list {
+	clear:both;
+}
+#fr-banner {
+	border-top: 10px solid #F4BC16;
+}
+.post.type-post {
+	padding: 1rem;
+	background-color: #f4f4f4;
+	
+	margin-bottom: 25px;
+} 
+.entry-meta {
+	margin-top:10px;
+}
+.btn, .btn a {
+	background-size: 100% 200%;
+  color:#fff;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+  border:none!important;
+  outline:none;
+  background-color: #5cb8e7;
+  border-radius: 10px;
+}
+.page_pagination a {
+    padding:0.3rem 0.6rem;
+    color:#fff;
+    background-color:rgb(92, 184, 231);
+    margin-right:3px;
+    border-radius:5px;
+}
+.page_pagination a:hover {
+    background-color:#505050;
+}
+.page_pagination span {
+    padding:0.3rem 0.6rem;
+    color:#fff;
+    background-color:#505050;
+    border-radius:5px;
+    margin-right:3px;
+    /* border-radius:5px; */
+}

@@ -1,0 +1,273 @@
+/*
+ Theme Name:   OnePirate
+ Description:  One Pirate is a beautiful one-page WordPress theme, with a colorful and playful design, nice animations, full-screen layout, and elegant parallax effect. The theme comes with a full-width header and with catchy icons. Overall, One Pirate has a modern and interactive look, and a smooth transition from a section to another.
+ Author:       Themeisle
+ Author URI:   https://themeisle.com
+ Template:     zerif-lite
+ Version:      1.0.2
+ License:      GNU General Public License version 3
+ License URI:  http://www.gnu.org/licenses/gpl-3.0.html
+ Text Domain:  one-pirate
+ Tags:         black, gray, red, white, one-column, two-columns, right-sidebar, responsive-layout, custom-background, custom-menu, editor-style, featured-images, threaded-comments, translation-ready
+*/
+
+
+/*--------------------------------------------------------------
+General
+--------------------------------------------------------------*/
+body {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 14px;
+    color: #808080;
+    font-weight: normal;
+    line-height: 25px;
+    text-align: center;
+}
+
+
+
+
+/*--------------------------------------------------------------
+Header
+--------------------------------------------------------------*/
+.navbar-inverse .navbar-nav > li > a {
+    color: #302404 !important;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #E96656 !important;
+    outline: medium none;
+    border-bottom: 2px solid #E96656;
+    -webkit-transition: all 100ms;
+    transition: all 100ms;
+}
+
+/*--------------------------------------------------------------
+Content
+--------------------------------------------------------------*/
+.red-btn {
+    background: rgb(252, 96, 65) none repeat scroll 0% 0%;
+}
+
+.red-btn:hover {
+    color: #FFF;
+    background: #d8472a none repeat scroll 0% 0%;
+}
+
+.green-btn {
+    background: #f7cb00 none repeat scroll 0% 0%;
+}
+
+.green-btn:hover {
+    color: #FFF;
+    background: #a78900 none repeat scroll 0% 0%;
+}
+
+.focus-box .service-icon .pixeden {
+    border-radius: 50%;
+    background-color: #FEFEFE !important;
+}
+
+.focus {
+    padding-bottom: 100px;
+    overflow: hidden;
+    background: url("images/geometry2.png");
+}
+
+.about-us {
+    color: #FFF;
+    padding-bottom: 100px;
+    background: #D1EDFB none repeat scroll 0% 0%;
+}
+
+.about-us * .section-header h2 {
+    padding-bottom: 10px;
+    color: #FFF !important;
+    line-height: 40px;
+    position: relative;
+    display: inline-block;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.about-us * .white-text{
+    color: #34c5f2 !important;
+}
+
+.about-us * p{
+    color: #7E7E7E !important;
+}
+
+.dark-text{
+    color: #412a22 !important;
+}
+
+.testimonial {
+    padding-bottom: 90px;
+    background: rgba(247, 203, 0, 0.9) none repeat scroll 0% 0% !important;
+}
+
+
+.contact-us {
+    background: rgba(59, 92, 108, 0.8) none repeat scroll 0% 0%;
+    padding-bottom: 95px;
+}
+
+.red-border-bottom::before {
+    position: absolute;
+    margin: auto;
+    z-index: 1;
+    content: "";
+    width: 75%;
+    height: 2px;
+    background: #FFB000 none repeat scroll 0% 0% !important;
+    bottom: -9px;
+    left: 12.5%;
+}
+
+.our-team * h6{
+    color: #44B0CE !important;
+}
+
+
+.ctUp-ads:nth-child(4n+2) .service-icon:hover, .focus-box:nth-child(4n+1) .service-icon:hover {
+    border: 10px solid #fc6041;
+}
+
+.ctUp-ads:nth-child(4n+2) .service-icon:hover, .focus-box:nth-child(4n+2) .service-icon:hover {
+    border: 10px solid #fc6041;
+}
+.ctUp-ads:nth-child(4n+2) .service-icon:hover, .focus-box:nth-child(4n+3) .service-icon:hover {
+    border: 10px solid #fc6041;
+}
+
+.ctUp-ads:nth-child(4n+2) .service-icon:hover, .focus-box:nth-child(4n+4) .service-icon:hover {
+    border: 10px solid #fc6041;
+}
+
+.ctUp-ads:nth-child(4n+1) .red-border-bottom::before, .focus-box:nth-child(4n+1) .red-border-bottom:hover {
+    background: none repeat scroll 0% 0%;
+}
+
+.ctUp-ads:nth-child(4n+2) .red-border-bottom::before, .focus-box:nth-child(4n+2) .red-border-bottom:hover {
+    background: none repeat scroll 0% 0%;
+}
+
+.ctUp-ads:nth-child(4n+3) .red-border-bottom::before, .focus-box:nth-child(4n+3) .red-border-bottom:hover {
+    background: none repeat scroll 0% 0%;
+}
+
+.ctUp-ads:nth-child(4n+4) .red-border-bottom::before, .focus-box:nth-child(4n+4) .red-border-bottom:hover {
+    background: none repeat scroll 0% 0%;
+}
+
+
+
+#carousel-homepage-latestnews .item .latestnews-box:nth-child(4n+1) .latestnews-title a::before {
+    background: #fc6041 none repeat scroll 0% 0% !important;
+}
+
+#carousel-homepage-latestnews .item .latestnews-box:nth-child(4n+2) .latestnews-title a::before {
+    background: #ccbe0a none repeat scroll 0% 0% !important;
+}
+
+#carousel-homepage-latestnews .item .latestnews-box:nth-child(4n+3) .latestnews-title a::before {
+    background: #6fd0f7 none repeat scroll 0% 0% !important;
+}
+
+#carousel-homepage-latestnews .item .latestnews-box:nth-child(4n+4) .latestnews-title a::before {
+    background: #f7cb00 none repeat scroll 0% 0% !important;
+}
+
+.latesnews-content > p{
+    font-size: 15px;
+}
+
+.team-member:hover .details {
+    top: 0px;
+    background: #44B9DC none repeat scroll 0% 0% !important;
+    color: #FFF;
+    opacity: 1;
+}
+
+/*    BLOG    */
+
+#primary{
+    margin-top: -60px;
+}
+
+.site-content {
+    background: #F5F5F5 none repeat scroll 0% 0%;
+}
+
+article.hentry {
+    border: 1px solid rgb(219, 219, 219);
+    padding: 15px;
+    border-radius: 3px;
+    background-color: white;
+}    
+
+.entry-content p {
+    text-align: justify;
+    font-size: 15px;
+}
+
+.listpost-content-wrap .entry-title a::after {
+    position: absolute;
+    margin: auto;
+    z-index: 1;
+    content: "";
+    height: 2px;
+    background: #FFB000 none repeat scroll 0% 0%;
+    bottom: -9px;
+    left: 0px;
+    width: 50px;
+}
+
+.listpost-content-wrap-full .entry-footer > span, .listpost-content-wrap .entry-footer > span {
+    padding-right: 15px;
+    font-size: 15px;
+}
+
+.entry-footer {
+    background: transparent none repeat scroll 0% 0%;
+    font-size: 15px;
+}
+
+.entry-footer a {
+    color: #BDBDBD;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.nav-previous{
+    margin-left: 45px;
+}
+
+.nav-next{
+    margin-right: 45px;
+}
+
+/*--------------------------------------------------------------
+Footer
+--------------------------------------------------------------*/
+#footer {
+    background: #3B5C6C none repeat scroll 0% 0%;
+}
+
+.copyright {
+    padding-top: 68px;
+    padding-bottom: 68px;
+    background: #2C4754 none repeat scroll 0% 0%;
+}
+
+.company-details {
+    color: #F5F5F5;
+    padding-top: 67px;
+    padding-bottom: 67px;
+}
+
+.social li a {
+    color: #E1E1E1;
+    font-size: 18px;
+}
