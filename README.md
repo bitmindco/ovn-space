@@ -29,3 +29,6 @@ Indexing our common work/knowledge allows us to increase the visibility of the w
 In order to converge into a common set of methodologies, it is important to work in a scientific way. That means the separation of assumptions from group data, and the repeated experimentation. 
 
 In practical terms, that means that we keep raw data in our site so that others can inspect them.
+
+
+Read the whole document (in progress) (https://docs.google.com/document/d/1H735-yqHt_MC7TYQvG8inOjEwkQC30HslvQKXOKCOlg/edit?usp=sharing)[here].
